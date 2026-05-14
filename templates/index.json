@@ -25,6 +25,36 @@
         "overlay_opacity": 0
       }
     },
+    "image_with_text_overlay_Jhg7Gx": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_May_14_2026_06_01_38_PM.png",
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_May_14_2026_06_01_38_PM.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_liquid_zBTDfn": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"max-width:1100px;margin:60px auto;padding:0 20px;\">\n\n  <div style=\"text-align:center;margin-bottom:50px;\">\n    <div style=\"letter-spacing:6px;color:#c8ab63;font-size:14px;margin-bottom:15px;text-transform:uppercase;\">\n      Your Hair Concerns\n    </div>\n\n    <h2 style=\"font-size:clamp(38px,5vw,72px);line-height:1.1;color:#111;font-weight:500;margin:0;\">\n      You deserve a solution\n    </h2>\n\n    <div style=\"font-size:clamp(38px,5vw,72px);line-height:1.1;color:#2f6b46;font-style:italic;margin-top:10px;\">\n      that truly works\n    </div>\n  </div>\n\n  <div style=\"border-radius:32px;overflow:hidden;box-shadow:0 10px 40px rgba(0,0,0,0.08);\">\n    <img \n      src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/ChatGPT_Image_May_14_2026_06_12_21_PM.png?v=1778775161\"\n      alt=\"Elixara hair results\"\n      style=\"width:100%;display:block;border-radius:32px;\"\n    >\n  </div>\n\n  <div style=\"text-align:center;margin-top:80px;margin-bottom:40px;\">\n    <div style=\"letter-spacing:6px;color:#c8ab63;font-size:14px;margin-bottom:15px;text-transform:uppercase;\">\n      Why Elixara?\n    </div>\n\n    <h2 style=\"font-size:clamp(36px,5vw,68px);line-height:1.1;color:#111;font-weight:500;margin:0;\">\n      Natural extracts,\n    </h2>\n\n    <div style=\"font-size:clamp(36px,5vw,68px);line-height:1.1;color:#2f6b46;font-style:italic;margin-top:10px;\">\n      real-looking results\n    </div>\n\n    <p style=\"max-width:850px;margin:35px auto 0;font-size:24px;line-height:1.8;color:#6d6d6d;\">\n      Elixara is designed to support thinning hair caused by stress, post-partum shedding, seasonal hair fall, and weakened roots with a plant-based formula.\n    </p>\n  </div>\n\n  <div class=\"elixara-benefits\">\n\n    <div class=\"elixara-card\">\n      <h3>Natural Plant Extracts</h3>\n      <p>Silicone-free, paraben-free, vegan formula and dermatologically tested.</p>\n    </div>\n\n    <div class=\"elixara-card\">\n      <h3>Growth Support</h3>\n      <p>Helps reduce hair fall while supporting stronger, fuller-looking hair.</p>\n    </div>\n\n    <div class=\"elixara-card\">\n      <h3>For Thinning Hair</h3>\n      <p>Ideal for stress-related shedding, post-partum hair fall, weak roots, and thinning areas.</p>\n    </div>\n\n  </div>\n\n</div>\n\n<style>\n.elixara-benefits{\n  display:grid;\n  grid-template-columns:repeat(3,1fr);\n  gap:25px;\n  margin-top:50px;\n}\n\n.elixara-card{\n  background:#fff;\n  border-radius:28px;\n  padding:35px;\n  box-shadow:0 8px 25px rgba(0,0,0,0.05);\n  border-left:6px solid #2f6b46;\n}\n\n.elixara-card h3{\n  font-size:24px;\n  margin:0 0 15px;\n  color:#111;\n  font-weight:500;\n}\n\n.elixara-card p{\n  font-size:20px;\n  line-height:1.7;\n  color:#6d6d6d;\n  margin:0;\n}\n\n@media screen and (max-width:768px){\n\n  .elixara-benefits{\n    display:flex;\n    overflow-x:auto;\n    gap:18px;\n    padding-bottom:12px;\n    scroll-snap-type:x mandatory;\n    -webkit-overflow-scrolling:touch;\n  }\n\n  .elixara-benefits > div{\n    min-width:85%;\n    scroll-snap-align:start;\n    flex-shrink:0;\n  }\n\n  .elixara-benefits::-webkit-scrollbar{\n    display:none;\n  }\n\n  .elixara-card{\n    padding:30px;\n  }\n\n  .elixara-card h3{\n    font-size:23px;\n  }\n\n  .elixara-card p{\n    font-size:18px;\n  }\n\n}\n</style>\n\n<div style=\"margin-top:-80px;\"></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured-product": {
       "type": "featured-product",
       "blocks": {
@@ -123,7 +153,7 @@
         "input_text_color": ""
       }
     },
-    "image_with_text_overlay_Jhg7Gx": {
+    "image_with_text_overlay_jHtBm3": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
       "settings": {
@@ -131,8 +161,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_May_14_2026_06_01_38_PM.png",
-        "mobile_image": "shopify://shop_images/ChatGPT_Image_May_14_2026_06_01_38_PM.png",
+        "image": "shopify://shop_images/ChatGPT_Image_May_14_2026_06_19_23_PM.png",
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_May_14_2026_06_19_23_PM.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -144,6 +174,8 @@
   "order": [
     "image-with-text-overlay",
     "image_with_text_overlay_Jhg7Gx",
+    "custom_liquid_zBTDfn",
+    "image_with_text_overlay_jHtBm3",
     "featured-product"
   ]
 }

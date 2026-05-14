@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -5,22 +14,42 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_fFEFL3": {
+          "type": "message",
+          "settings": {
+            "text": "Today’s Special Offer",
+            "url": ""
+          }
+        },
+        "message_RkWBe8": {
+          "type": "message",
+          "settings": {
+            "text": "Visible Results In Just A Few Weeks",
+            "url": ""
+          }
+        },
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here"
+            "text": "Free Shipping Today",
+            "url": ""
           }
         }
       },
       "block_order": [
+        "message_fFEFL3",
+        "message_RkWBe8",
         "message"
       ],
       "settings": {
         "enable_sticky": false,
-        "text_size": "text-xs",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "text_size": "text-base",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1a1a1a",
+        "background": "#468846",
+        "background_gradient": "",
         "text_color": "#ffffff"
       }
     },
@@ -29,14 +58,18 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "{{shop.brand.logo}}",
-        "logo_max_width": 120,
-        "logo_mobile_max_width": 100,
+        "logo": "shopify://shop_images/ChatGPT_Image_May_9_2026_04_27_39_PM.png",
+        "logo_max_width": 170,
+        "logo_mobile_max_width": 120,
         "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
         "menu_open_trigger": "click",
         "opening_from": "bottom",
         "layout": "logo_left_navigation_center",
         "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",

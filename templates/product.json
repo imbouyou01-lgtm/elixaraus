@@ -1,1 +1,158 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"vendor","settings":{}},"title":{"type":"title","settings":{}},"badges":{"type":"badges","settings":{}},"price":{"type":"price","settings":{}},"rating":{"type":"rating","settings":{}},"payment_terms":{"type":"payment_terms","settings":{}},"separator":{"type":"separator","settings":{}},"description":{"type":"description","settings":{}},"variant_picker":{"type":"variant_picker","settings":{}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{}},"pickup_availability":{"type":"pickup_availability","settings":{}}},"block_order":["vendor","title","badges","price","rating","payment_terms","separator","description","variant_picker","quantity_selector","buy_buttons"],"settings":{}},"related-products":{"type":"related-products","settings":{}}},"order":["main","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "custom_liquid_DU4d8Y": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"elixara-clean-box\">\n\n  <div class=\"elixara-top-trust\">\n    <div>✓ Free Shipping</div>\n    <div>↺ 30-Day Guarantee</div>\n    <div>🌱 Vegan Formula</div>\n    <div>🔒 Secure Checkout</div>\n  </div>\n\n  <p class=\"elixara-kicker\">ADVANCED HAIR GROWTH CARE</p>\n\n  <h2>Stronger roots, visibly fuller-looking hair.</h2>\n\n  <p class=\"elixara-desc\">\n    Elixara helps support weaker hair, nourish the scalp, and promote a healthier-looking hair growth routine over time.\n  </p>\n\n  <div class=\"elixara-benefits-list\">\n\n    <div>\n      <strong>Strengthens Roots</strong>\n      <span>Supports healthier and stronger hair from the scalp.</span>\n    </div>\n\n    <div>\n      <strong>Helps Reduce Hair Fall</strong>\n      <span>Perfect for stress-related shedding, post-partum hair loss, or thinning hair.</span>\n    </div>\n\n    <div>\n      <strong>Supports Hair Growth</strong>\n      <span>For hair that looks fuller, denser, and healthier.</span>\n    </div>\n\n    <div>\n      <strong>Nourishes The Scalp</strong>\n      <span>Provides comfort and care for dry or weakened scalps.</span>\n    </div>\n\n  </div>\n\n  <div class=\"elixara-ingredients\">\n\n    <strong>Gentle & Vegan Formula</strong>\n\n    <p>\n      Made with plant-based extracts, silicone-free, paraben-free, and designed for daily use.\n    </p>\n\n  </div>\n\n  <div class=\"elixara-mini-result\">\n    Recommended routine: 90 to 150 days for progressive visible results.\n  </div>\n\n</div>\n\n<section class=\"elixara-faq\">\n\n  <div class=\"faq-title\">\n\n    <p>FREQUENTLY ASKED QUESTIONS</p>\n\n    <h2>\n      Everything you need to know about<br>\n      <span>Elixara</span>\n    </h2>\n\n  </div>\n\n  <div class=\"faq-container\">\n\n    <details class=\"faq-item\" open>\n\n      <summary>When will I start seeing results?</summary>\n\n      <p>\n        Results may vary depending on the individual. With consistent use, most users begin noticing visible improvements within 4 to 6 weeks.\n      </p>\n\n    </details>\n\n    <details class=\"faq-item\">\n\n      <summary>How do I use Elixara?</summary>\n\n      <p>\n        Apply a few drops directly onto the scalp and gently massage for 1–2 minutes. Do not rinse.\n      </p>\n\n    </details>\n\n    <details class=\"faq-item\">\n\n      <summary>How long should I use it?</summary>\n\n      <p>\n        For best results, we recommend using Elixara consistently for 90 to 150 days.\n      </p>\n\n    </details>\n\n    <details class=\"faq-item\">\n\n      <summary>Who is Elixara for?</summary>\n\n      <p>\n        Elixara is suitable for both men and women experiencing thinning, weak, fragile, or shedding hair.\n      </p>\n\n    </details>\n\n    <details class=\"faq-item\">\n\n      <summary>Can I use it after pregnancy or during stressful periods?</summary>\n\n      <p>\n        Yes. Elixara can be added to a hair care routine during post-partum shedding, stress-related hair fall, or seasonal changes.\n      </p>\n\n    </details>\n\n    <details class=\"faq-item\">\n\n      <summary>Is the formula natural?</summary>\n\n      <p>\n        The formula is made with plant-based extracts, is vegan, silicone-free, and paraben-free.\n      </p>\n\n    </details>\n\n    <details class=\"faq-item\">\n\n      <summary>Is shipping free?</summary>\n\n      <p>\n        Yes, we currently offer free shipping today.\n      </p>\n\n    </details>\n\n    <details class=\"faq-item\">\n\n      <summary>Do you offer a guarantee?</summary>\n\n      <p>\n        Yes, every order is backed by our 30-Day Money Back Guarantee.\n      </p>\n\n    </details>\n\n  </div>\n\n</section>\n\n<style>\n\n.elixara-clean-box{\n  background:#FFFFFF;\n  border:1px solid rgba(2,153,66,.16);\n  border-radius:24px;\n  padding:18px;\n  margin-top:-28px;\n  margin-bottom:18px;\n  box-shadow:0 8px 24px rgba(0,0,0,.05);\n}\n\n.elixara-top-trust{\n  display:grid;\n  grid-template-columns:repeat(2,1fr);\n  gap:8px;\n  margin-bottom:18px;\n}\n\n.elixara-top-trust div{\n  background:#029942;\n  border:1px solid rgba(255,255,255,.15);\n  border-radius:14px;\n  padding:11px 8px;\n  color:#FFFFFF;\n  font-size:12.5px;\n  font-weight:800;\n  text-align:center;\n  line-height:1.25;\n  box-shadow:0 4px 12px rgba(2,153,66,.18);\n}\n\n.elixara-kicker{\n  color:#B58A2F;\n  font-size:11px;\n  letter-spacing:2px;\n  font-weight:900;\n  margin:0 0 10px;\n}\n\n.elixara-clean-box h2{\n  color:#111111;\n  font-size:25px;\n  line-height:1.18;\n  margin:0 0 12px;\n  font-weight:900;\n}\n\n.elixara-desc{\n  color:#1F1F1F;\n  font-size:14.5px;\n  line-height:1.65;\n  margin:0 0 18px;\n  font-weight:600;\n}\n\n.elixara-benefits-list{\n  display:grid;\n  grid-template-columns:1fr;\n  gap:10px;\n  margin-bottom:16px;\n}\n\n.elixara-benefits-list div{\n  background:#FFFFFF;\n  border:1px solid rgba(2,153,66,.14);\n  border-radius:16px;\n  padding:14px;\n}\n\n.elixara-benefits-list strong{\n  display:block;\n  color:#111111;\n  font-size:14.5px;\n  font-weight:900;\n  margin-bottom:4px;\n}\n\n.elixara-benefits-list span{\n  display:block;\n  color:#2B2B2B;\n  font-size:13.5px;\n  font-weight:600;\n  line-height:1.5;\n}\n\n.elixara-ingredients{\n  background:#029942;\n  border-radius:18px;\n  padding:16px;\n  margin-bottom:16px;\n}\n\n.elixara-ingredients strong{\n  color:#F3D08B;\n  font-size:15px;\n  font-weight:900;\n}\n\n.elixara-ingredients p{\n  color:#FFFFFF;\n  font-size:14px;\n  line-height:1.6;\n  font-weight:600;\n  margin:7px 0 0;\n}\n\n.elixara-mini-result{\n  background:#FFF9EE;\n  border-left:4px solid #C49A45;\n  border-radius:14px;\n  padding:13px;\n  color:#111111;\n  font-weight:800;\n  font-size:14px;\n}\n\n.elixara-faq{\n  background:#FFFFFF;\n  padding:55px 16px;\n}\n\n.faq-title{\n  text-align:center;\n  margin-bottom:34px;\n}\n\n.faq-title p{\n  color:#B58A2F;\n  letter-spacing:4px;\n  font-size:12px;\n  margin-bottom:12px;\n  font-weight:900;\n}\n\n.faq-title h2{\n  font-family:serif;\n  font-size:42px;\n  line-height:1.05;\n  font-weight:700;\n  color:#111111;\n  margin:0;\n}\n\n.faq-title h2 span{\n  color:#029942;\n  font-style:italic;\n}\n\n.faq-container{\n  max-width:900px;\n  margin:auto;\n  display:flex;\n  flex-direction:column;\n  gap:14px;\n}\n\n.faq-item{\n  background:#FFFFFF;\n  border:1px solid rgba(2,153,66,.14);\n  border-radius:20px;\n  padding:0 20px;\n  box-shadow:0 6px 18px rgba(0,0,0,.04);\n  overflow:hidden;\n}\n\n.faq-item summary{\n  list-style:none;\n  cursor:pointer;\n  padding:22px 0;\n  font-size:16px;\n  font-weight:900;\n  color:#111111;\n  position:relative;\n  padding-right:30px;\n}\n\n.faq-item summary::-webkit-details-marker{\n  display:none;\n}\n\n.faq-item summary::after{\n  content:\"+\";\n  position:absolute;\n  right:0;\n  top:50%;\n  transform:translateY(-50%);\n  font-size:26px;\n  color:#B58A2F;\n}\n\n.faq-item[open] summary::after{\n  content:\"−\";\n}\n\n.faq-item p{\n  padding-bottom:22px;\n  margin:0;\n  color:#222222;\n  line-height:1.65;\n  font-size:14.5px;\n  font-weight:600;\n}\n\n@media(min-width:750px){\n\n  .elixara-benefits-list{\n    grid-template-columns:repeat(2,1fr);\n  }\n\n  .elixara-top-trust{\n    grid-template-columns:repeat(4,1fr);\n  }\n\n}\n\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "custom_liquid_DU4d8Y"
+  ]
+}

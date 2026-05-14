@@ -213,14 +213,14 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "title": "Real Customer Results",
+        "content": "<p>Visible Hair Density Improvement</p>",
         "before_image": "shopify://shop_images/ChatGPT_Image_May_14_2026_09_22_22_PM.png",
         "before_image_mobile": "shopify://shop_images/ChatGPT_Image_May_14_2026_09_22_22_PM.png",
         "after_image": "shopify://shop_images/ChatGPT_Image_May_14_2026_09_20_04_PM.png",
         "after_image_mobile": "shopify://shop_images/ChatGPT_Image_May_14_2026_09_20_04_PM.png",
         "expand_image": false,
-        "text_position": "start",
+        "text_position": "center",
         "before_after_text_position": "top",
         "before_text": "Before",
         "after_text": "After",
@@ -238,11 +238,11 @@
   "order": [
     "image-with-text-overlay",
     "image_with_text_overlay_Jhg7Gx",
+    "before_after_image_mUnjVp",
     "custom_liquid_zBTDfn",
     "image_with_text_overlay_jHtBm3",
     "custom_liquid_a4hTpC",
     "featured-product",
-    "custom_liquid_WKUfRL",
-    "before_after_image_mUnjVp"
+    "custom_liquid_WKUfRL"
   ]
 }

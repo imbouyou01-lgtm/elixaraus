@@ -13,6 +13,7 @@
   "sections": {
     "custom_liquid_WDQ7Jj": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,

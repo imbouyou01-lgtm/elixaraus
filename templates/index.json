@@ -24,6 +24,7 @@
     },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -260,10 +261,24 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_bdDE97": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"elixara-press\">\n\n  <p class=\"elixara-press-subtitle\">\n    Recommended by hair experts worldwide\n  </p>\n\n  <div class=\"elixara-logos-wrapper\">\n\n    <div class=\"elixara-logos-track\">\n\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/7/71/Vogue_logo.svg\" alt=\"Vogue\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/9/93/Elle_logo.svg\" alt=\"Elle\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/0/05/Healthline_logo.svg\" alt=\"Healthline\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/3/35/Cosmopolitan_logo.svg\" alt=\"Cosmopolitan\">\n\n      <!-- duplication pour scroll infini -->\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/7/71/Vogue_logo.svg\" alt=\"Vogue\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/9/93/Elle_logo.svg\" alt=\"Elle\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/0/05/Healthline_logo.svg\" alt=\"Healthline\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/3/35/Cosmopolitan_logo.svg\" alt=\"Cosmopolitan\">\n\n    </div>\n\n  </div>\n\n</section>\n\n<style>\n\n.elixara-press{\n  width:100%;\n  padding:34px 0;\n  background:#f8f2e8;\n  overflow:hidden;\n}\n\n.elixara-press-subtitle{\n  text-align:center;\n  font-size:15px;\n  font-weight:700;\n  letter-spacing:.4px;\n  color:#063b2a;\n  margin-bottom:24px;\n}\n\n.elixara-logos-wrapper{\n  overflow:hidden;\n  width:100%;\n  position:relative;\n}\n\n.elixara-logos-track{\n  display:flex;\n  align-items:center;\n  gap:70px;\n  width:max-content;\n  animation:elixaraScroll 28s linear infinite;\n}\n\n.elixara-logos-track img{\n  height:28px;\n  width:auto;\n  object-fit:contain;\n  opacity:.75;\n  filter:grayscale(100%);\n  transition:.3s ease;\n}\n\n.elixara-logos-track img:hover{\n  opacity:1;\n}\n\n@keyframes elixaraScroll{\n  from{\n    transform:translateX(0);\n  }\n  to{\n    transform:translateX(-50%);\n  }\n}\n\n@media(max-width:768px){\n\n  .elixara-press{\n    padding:26px 0;\n  }\n\n  .elixara-press-subtitle{\n    font-size:13px;\n    margin-bottom:18px;\n  }\n\n  .elixara-logos-track{\n    gap:40px;\n  }\n\n  .elixara-logos-track img{\n    height:18px;\n  }\n\n}\n\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "custom_liquid_3TrT46",
+    "custom_liquid_bdDE97",
     "image-with-text-overlay",
     "image_with_text_overlay_Jhg7Gx",
     "before_after_image_mUnjVp",

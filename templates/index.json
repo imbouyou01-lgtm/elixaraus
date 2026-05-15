@@ -22,6 +22,36 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_jHtBm3": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_May_15_2026_10_39_21_PM.png",
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_May_15_2026_10_39_21_PM.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_liquid_LAmkQj": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"elixara-reviews\">\n  <div class=\"elixara-reviews-head\">\n    <p>Real Results</p>\n    <h2>Women are getting their confidence back</h2>\n  </div>\n\n  <div class=\"elixara-reviews-track\">\n\n    <div class=\"review-card\"><img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/S4c7470a50d084c499fac5328375d66a6g.avif?v=1778879618\"><div>★★★★★</div><h3>“I saw less hair fall.”</h3><p>After a few weeks, my brush had noticeably less hair. I finally feel hopeful again.</p><span>— Amanda, verified buyer</span></div>\n\n    <div class=\"review-card\"><img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/Sff73f76a035449af95a4c862a9e25587i.avif?v=1778879594\"><div>★★★★★</div><h3>“My hair feels fuller.”</h3><p>I was skeptical, but my roots look stronger and my hair feels thicker.</p><span>— Jessica, verified buyer</span></div>\n\n    <div class=\"review-card\"><img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/S352ae5c1c6404706bcce5a60c49df6cct.avif?v=1778879580\"><div>★★★★★</div><h3>“It actually works.”</h3><p>I noticed baby hairs around my hairline. That was the moment I believed it.</p><span>— Lauren, verified buyer</span></div>\n\n    <div class=\"review-card\"><img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/S8c1199a3498944c9a028a1ed85a7a396c.avif?v=1778879565\"><div>★★★★★</div><h3>“I feel confident again.”</h3><p>I stopped hiding my hair in photos. That alone makes it worth it.</p><span>— Emily, verified buyer</span></div>\n\n    <div class=\"review-card\"><img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/Sbf5c1cd2b5c84000af70493b76f2d13f2_2742855d-fd0b-4c65-91e3-45d62262284f.avif?v=1778879542\"><div>★★★★★</div><h3>“My ponytail looks thicker.”</h3><p>My hair feels stronger and less fragile when I brush it.</p><span>— Rachel, verified buyer</span></div>\n\n    <div class=\"review-card\"><img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/S2948ed64857744d2bf25008621603ab9p_d5c4907d-6bcf-40a9-bc17-a3b4db4791d7.avif?v=1778879521\"><div>★★★★★</div><h3>“Wish I ordered sooner.”</h3><p>I kept waiting, but I’m so glad I finally tried it.</p><span>— Nicole, verified buyer</span></div>\n\n    <div class=\"review-card\"><img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/S91852db5cba648d19205124f1422aec3o.avif?v=1778879507\"><div>★★★★★</div><h3>“So easy to use.”</h3><p>I apply it at night and forget about it. Super simple routine.</p><span>— Megan, verified buyer</span></div>\n\n    <div class=\"review-card\"><img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/Sdc3f7a8d208d450f8c8a0989d85b836et.avif?v=1778879491\"><div>★★★★★</div><h3>“My scalp feels healthier.”</h3><p>It doesn’t feel greasy, and my hair feels fresher at the roots.</p><span>— Sarah, verified buyer</span></div>\n\n    <div class=\"review-card\"><img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/Se51ad6e3a31947a1a78a5cbefd3e020b9.avif?v=1778879455\"><div>★★★★★</div><h3>“Less shedding fast.”</h3><p>I noticed fewer strands in the shower during the first weeks.</p><span>— Chloe, verified buyer</span></div>\n\n    <div class=\"review-card\"><img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/S35ce60888a7c4782961aad320a52d684G_b85a1f14-ec08-4887-82cf-3d65a5418a23.avif?v=1778879439\"><div>★★★★★</div><h3>“Beautiful results.”</h3><p>My hair looks healthier, shinier, and easier to style.</p><span>— Olivia, verified buyer</span></div>\n\n  </div>\n</section>\n\n<style>\n.elixara-reviews{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  margin-right:calc(50% - 50vw);\n  background:#f8f2e8;\n  padding:44px 0;\n  overflow:hidden;\n}\n\n.elixara-reviews-head{\n  text-align:center;\n  padding:0 18px;\n  margin-bottom:28px;\n}\n\n.elixara-reviews-head p{\n  color:#b88722;\n  font-weight:900;\n  text-transform:uppercase;\n  margin:0 0 8px;\n}\n\n.elixara-reviews-head h2{\n  color:#063b2a;\n  font-size:clamp(28px,4vw,54px);\n  line-height:1;\n  margin:0;\n  font-weight:900;\n}\n\n.elixara-reviews-track{\n  display:flex;\n  gap:18px;\n  overflow-x:auto;\n  scroll-snap-type:x mandatory;\n  padding:0 18px 10px;\n  -webkit-overflow-scrolling:touch;\n}\n\n.review-card{\n  flex:0 0 300px;\n  scroll-snap-align:center;\n  background:#fff;\n  border-radius:22px;\n  padding:14px;\n  box-shadow:0 10px 26px rgba(0,0,0,.08);\n}\n\n.review-card img{\n  width:100%;\n  height:230px;\n  object-fit:cover;\n  border-radius:18px;\n  display:block;\n  margin-bottom:12px;\n}\n\n.review-card div{\n  color:#b88722;\n  font-size:15px;\n  letter-spacing:1px;\n  margin-bottom:8px;\n}\n\n.review-card h3{\n  color:#063b2a;\n  font-size:20px;\n  margin:0 0 8px;\n  line-height:1.1;\n}\n\n.review-card p{\n  color:#22483a;\n  font-size:14px;\n  line-height:1.45;\n  margin:0 0 12px;\n}\n\n.review-card span{\n  color:#063b2a;\n  font-size:13px;\n  font-weight:800;\n}\n\n@media(max-width:768px){\n  .elixara-reviews{\n    padding:34px 0;\n  }\n\n  .review-card{\n    flex-basis:260px;\n  }\n\n  .review-card img{\n    height:200px;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_bdDE97": {
       "type": "custom-liquid",
       "disabled": true,
@@ -100,6 +130,7 @@
     },
     "custom_liquid_zBTDfn": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -111,25 +142,9 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_jHtBm3": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_May_14_2026_06_19_23_PM.png",
-        "mobile_image": "shopify://shop_images/ChatGPT_Image_May_14_2026_06_19_23_PM.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "custom_liquid_a4hTpC": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -252,6 +267,7 @@
     },
     "custom_liquid_WKUfRL": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -265,6 +281,7 @@
     },
     "custom_liquid_r98LtB": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -279,12 +296,13 @@
   },
   "order": [
     "custom_liquid_3TrT46",
+    "image_with_text_overlay_jHtBm3",
+    "custom_liquid_LAmkQj",
     "custom_liquid_bdDE97",
     "image-with-text-overlay",
     "image_with_text_overlay_Jhg7Gx",
     "before_after_image_mUnjVp",
     "custom_liquid_zBTDfn",
-    "image_with_text_overlay_jHtBm3",
     "custom_liquid_a4hTpC",
     "featured-product",
     "custom_liquid_WKUfRL",

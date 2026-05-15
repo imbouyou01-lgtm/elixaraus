@@ -22,6 +22,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_bdDE97": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"elixara-press\">\n\n  <p class=\"elixara-press-subtitle\">\n    Recommended by hair experts worldwide\n  </p>\n\n  <div class=\"elixara-logos-wrapper\">\n\n    <div class=\"elixara-logos-track\">\n\n      <!-- LOGOS -->\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/VOGUE_LOGO_svg.png?v=1778872473\" \n        alt=\"Vogue\"\n        class=\"logo-vogue\"\n      >\n\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/Elle_logo_svg.png?v=1778872464\" \n        alt=\"Elle\"\n        class=\"logo-elle\"\n      >\n\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/images.jpg?v=1778874215\" \n        alt=\"Healthline\"\n        class=\"logo-healthline\"\n      >\n\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/telechargement.png?v=1778874226\" \n        alt=\"Cosmopolitan\"\n        class=\"logo-cosmo\"\n      >\n\n      <!-- DUPLICATE FOR INFINITE SCROLL -->\n\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/VOGUE_LOGO_svg.png?v=1778872473\" \n        alt=\"Vogue\"\n        class=\"logo-vogue\"\n      >\n\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/Elle_logo_svg.png?v=1778872464\" \n        alt=\"Elle\"\n        class=\"logo-elle\"\n      >\n\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/images.jpg?v=1778874215\" \n        alt=\"Healthline\"\n        class=\"logo-healthline\"\n      >\n\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/telechargement.png?v=1778874226\" \n        alt=\"Cosmopolitan\"\n        class=\"logo-cosmo\"\n      >\n\n    </div>\n\n  </div>\n\n</section>\n\n<style>\n\n.elixara-press{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  margin-right:calc(50% - 50vw);\n  padding:40px 0;\n  background:#f8f2e8;\n  overflow:hidden;\n}\n\n.elixara-press-subtitle{\n  text-align:center;\n  font-size:15px;\n  font-weight:700;\n  color:#063b2a;\n  margin:0 0 30px;\n  letter-spacing:.4px;\n}\n\n.elixara-logos-wrapper{\n  width:100%;\n  overflow:hidden;\n}\n\n.elixara-logos-track{\n  display:flex;\n  align-items:center;\n  gap:90px;\n  width:max-content;\n  animation:elixaraScroll 24s linear infinite;\n}\n\n.elixara-logos-track img{\n  width:auto;\n  object-fit:contain;\n  opacity:1;\n  filter:none;\n  flex-shrink:0;\n}\n\n/* DESKTOP */\n\n.logo-vogue{\n  height:42px;\n}\n\n.logo-elle{\n  height:38px;\n}\n\n.logo-healthline{\n  height:54px;\n}\n\n.logo-cosmo{\n  height:54px;\n  padding-right:40px;\n}\n\n/* SCROLL */\n\n@keyframes elixaraScroll{\n\n  from{\n    transform:translateX(0);\n  }\n\n  to{\n    transform:translateX(-50%);\n  }\n\n}\n\n/* MOBILE */\n\n@media(max-width:768px){\n\n  .elixara-press{\n    padding:28px 0;\n  }\n\n  .elixara-press-subtitle{\n    font-size:13px;\n    margin-bottom:20px;\n  }\n\n  .elixara-logos-track{\n    gap:50px;\n    animation-duration:18s;\n  }\n\n  .logo-vogue{\n    height:28px;\n  }\n\n  .logo-elle{\n    height:24px;\n  }\n\n  .logo-healthline{\n    height:38px;\n  }\n\n  .logo-cosmo{\n    height:38px;\n    padding-right:25px;\n  }\n\n}\n\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "disabled": true,
@@ -257,19 +270,6 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<section class=\"elixara-press\">\n  <p class=\"elixara-press-text\">Recommended by hair experts worldwide</p>\n\n  <div class=\"elixara-press-logos\">\n    <span>Vogue</span>\n    <span>Elle</span>\n    <span>Healthline</span>\n    <span>Cosmopolitan</span>\n  </div>\n</section>\n\n<style>\n.elixara-press {\n  background: #f8f1e6;\n  padding: 28px 16px;\n  text-align: center;\n  border-top: 1px solid rgba(6, 59, 42, 0.12);\n  border-bottom: 1px solid rgba(6, 59, 42, 0.12);\n}\n\n.elixara-press-text {\n  margin: 0 0 18px;\n  font-size: 15px;\n  font-weight: 700;\n  color: #063b2a;\n  letter-spacing: 0.5px;\n}\n\n.elixara-press-logos {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 34px;\n  flex-wrap: wrap;\n}\n\n.elixara-press-logos span {\n  font-family: Georgia, serif;\n  font-size: clamp(24px, 3vw, 38px);\n  font-weight: 700;\n  color: #063b2a;\n  opacity: 0.78;\n}\n\n@media (max-width: 768px) {\n  .elixara-press {\n    padding: 24px 12px;\n  }\n\n  .elixara-press-logos {\n    gap: 20px;\n  }\n\n  .elixara-press-logos span {\n    font-size: 24px;\n  }\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_bdDE97": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<section class=\"elixara-press\">\n\n  <p class=\"elixara-press-subtitle\">\n    Recommended by hair experts worldwide\n  </p>\n\n  <div class=\"elixara-logos-wrapper\">\n\n    <div class=\"elixara-logos-track\">\n\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/7/71/Vogue_logo.svg\" alt=\"Vogue\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/9/93/Elle_logo.svg\" alt=\"Elle\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/0/05/Healthline_logo.svg\" alt=\"Healthline\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/3/35/Cosmopolitan_logo.svg\" alt=\"Cosmopolitan\">\n\n      <!-- duplication pour scroll infini -->\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/7/71/Vogue_logo.svg\" alt=\"Vogue\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/9/93/Elle_logo.svg\" alt=\"Elle\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/0/05/Healthline_logo.svg\" alt=\"Healthline\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/commons/3/35/Cosmopolitan_logo.svg\" alt=\"Cosmopolitan\">\n\n    </div>\n\n  </div>\n\n</section>\n\n<style>\n\n.elixara-press{\n  width:100%;\n  padding:34px 0;\n  background:#f8f2e8;\n  overflow:hidden;\n}\n\n.elixara-press-subtitle{\n  text-align:center;\n  font-size:15px;\n  font-weight:700;\n  letter-spacing:.4px;\n  color:#063b2a;\n  margin-bottom:24px;\n}\n\n.elixara-logos-wrapper{\n  overflow:hidden;\n  width:100%;\n  position:relative;\n}\n\n.elixara-logos-track{\n  display:flex;\n  align-items:center;\n  gap:70px;\n  width:max-content;\n  animation:elixaraScroll 28s linear infinite;\n}\n\n.elixara-logos-track img{\n  height:28px;\n  width:auto;\n  object-fit:contain;\n  opacity:.75;\n  filter:grayscale(100%);\n  transition:.3s ease;\n}\n\n.elixara-logos-track img:hover{\n  opacity:1;\n}\n\n@keyframes elixaraScroll{\n  from{\n    transform:translateX(0);\n  }\n  to{\n    transform:translateX(-50%);\n  }\n}\n\n@media(max-width:768px){\n\n  .elixara-press{\n    padding:26px 0;\n  }\n\n  .elixara-press-subtitle{\n    font-size:13px;\n    margin-bottom:18px;\n  }\n\n  .elixara-logos-track{\n    gap:40px;\n  }\n\n  .elixara-logos-track img{\n    height:18px;\n  }\n\n}\n\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""

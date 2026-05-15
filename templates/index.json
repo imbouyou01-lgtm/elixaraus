@@ -322,6 +322,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_xVJzkM": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"elixara-guarantee-section\">\n\n  <div class=\"elixara-guarantee-card\">\n\n    <img \n      src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/Screenshot_20260516_003521_ChatGPT.jpg?v=1778884648\"\n      alt=\"30-Day Satisfaction Guarantee\"\n      class=\"elixara-guarantee-logo\"\n    >\n\n    <h2>\n      Try Elixara™ with<br>\n      complete confidence\n    </h2>\n\n    <p>\n      Thousands of customers trust Elixara™ for stronger,\n      fuller-looking hair. Our formula is designed to support\n      healthier roots, reduce visible hair fall, and help you\n      feel confident again.\n    </p>\n\n    <p>\n      That’s why your order is protected by our\n      <strong>30-day money-back guarantee.</strong>\n    </p>\n\n    <p>\n      If you don’t love your experience,<br>\n      simply contact us and we’ll help you.\n    </p>\n\n  </div>\n\n</section>\n\n<style>\n.elixara-guarantee-section{\n  width:100%;\n  padding:28px 14px;\n  background:#fff;\n}\n\n.elixara-guarantee-card{\n  max-width:820px;\n  margin:0 auto;\n  background:#f3eadb;\n  border-radius:28px;\n  padding:42px 28px;\n  text-align:center;\n  color:#2d1d16;\n}\n\n.elixara-guarantee-logo{\n  width:190px;\n  max-width:60%;\n  display:block;\n  margin:0 auto 34px;\n}\n\n.elixara-guarantee-card h2{\n  font-family:Georgia, serif;\n  font-size:clamp(34px,5vw,58px);\n  line-height:1.15;\n  font-weight:900;\n  color:#063b2a;\n  margin:0 0 28px;\n}\n\n.elixara-guarantee-card p{\n  font-size:clamp(17px,2vw,24px);\n  line-height:1.65;\n  color:#5f554c;\n  margin:0 auto 22px;\n  max-width:680px;\n}\n\n.elixara-guarantee-card strong{\n  color:#063b2a;\n  font-weight:900;\n}\n\n@media(max-width:768px){\n  .elixara-guarantee-section{\n    padding:22px 12px;\n  }\n\n  .elixara-guarantee-card{\n    border-radius:24px;\n    padding:34px 20px;\n  }\n\n  .elixara-guarantee-logo{\n    width:150px;\n    margin-bottom:28px;\n  }\n\n  .elixara-guarantee-card h2{\n    font-size:34px;\n  }\n\n  .elixara-guarantee-card p{\n    font-size:17px;\n    line-height:1.6;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -337,6 +350,7 @@
     "featured-product",
     "custom_liquid_WKUfRL",
     "custom_liquid_r98LtB",
-    "custom_liquid_BncL6K"
+    "custom_liquid_BncL6K",
+    "custom_liquid_xVJzkM"
   ]
 }

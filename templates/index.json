@@ -301,6 +301,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_BncL6K": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"elixara-payment-wrapper\">\n\n  <h3 class=\"elixara-payment-title\">\n    SECURE PAYMENT METHODS\n  </h3>\n\n  <div class=\"elixara-payment-logos\">\n    <img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/telechargement_1.png?v=1778882360\" alt=\"AMEX\">\n    <img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/images_1.jpg?v=1778882367\" alt=\"Apple Pay\">\n    <img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/telechargement.jpg?v=1778882374\" alt=\"Mastercard\">\n    <img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/telechargement_1.jpg?v=1778882384\" alt=\"PayPal\">\n    <img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/telechargement_2.jpg?v=1778882396\" alt=\"Shop Pay\">\n    <img src=\"https://cdn.shopify.com/s/files/1/1039/0962/2090/files/telechargement_3.jpg?v=1778882412\" alt=\"Visa\">\n  </div>\n\n  <div class=\"elixara-secure-line\">\n    <svg viewBox=\"0 0 24 24\"><path d=\"M17 10V7a5 5 0 0 0-10 0v3\"/><rect x=\"5\" y=\"10\" width=\"14\" height=\"10\" rx=\"2\"/><path d=\"M12 14v3\"/></svg>\n    100% Secure Payment — SSL Encrypted\n  </div>\n\n  <div class=\"elixara-trust-grid\">\n\n    <div class=\"trust-item\">\n      <svg viewBox=\"0 0 24 24\"><path d=\"M3 7h11v10H3z\"/><path d=\"M14 11h4l3 3v3h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></svg>\n      <div><strong>Free Shipping</strong><br>On Every Order</div>\n    </div>\n\n    <div class=\"trust-item\">\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 3l8 4v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z\"/><path d=\"M8.5 12.5l2.2 2.2 4.8-5\"/></svg>\n      <div><strong>30-Day Guarantee</strong><br>Money-Back Promise</div>\n    </div>\n\n    <div class=\"trust-item\">\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 3l8 4v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z\"/><path d=\"M9 12l2 2 4-4\"/></svg>\n      <div><strong>Secure Checkout</strong><br>SSL 256-Bit Protection</div>\n    </div>\n\n    <div class=\"trust-item\">\n      <svg viewBox=\"0 0 24 24\"><path d=\"M4 12a8 8 0 0 1 16 0\"/><path d=\"M4 12v4a2 2 0 0 0 2 2h2v-6H6a2 2 0 0 0-2 2z\"/><path d=\"M20 12v4a2 2 0 0 1-2 2h-2v-6h2a2 2 0 0 1 2 2z\"/><path d=\"M13 20h3\"/></svg>\n      <div><strong>24/7 Support</strong><br>Response within 24h</div>\n    </div>\n\n  </div>\n\n</section>\n\n<style>\n.elixara-payment-wrapper{\n  background:#f7f3ee;\n  padding:18px 18px 28px;\n  border-radius:20px;\n  max-width:900px;\n  margin:8px auto 26px;\n}\n\n.elixara-payment-title{\n  text-align:center;\n  color:#063b2a;\n  font-size:13px;\n  letter-spacing:2px;\n  margin:0 0 18px;\n  font-weight:800;\n}\n\n.elixara-payment-logos{\n  display:flex;\n  justify-content:center;\n  align-items:center;\n  flex-wrap:wrap;\n  gap:10px;\n  margin-bottom:16px;\n}\n\n.elixara-payment-logos img{\n  height:48px;\n  width:auto;\n  object-fit:contain;\n  border-radius:10px;\n  background:#fff;\n}\n\n.elixara-secure-line{\n  display:flex;\n  justify-content:center;\n  align-items:center;\n  gap:8px;\n  text-align:center;\n  color:#8d7f72;\n  font-size:15px;\n  margin-bottom:26px;\n  font-weight:600;\n}\n\n.elixara-secure-line svg,\n.trust-item svg{\n  width:22px;\n  height:22px;\n  stroke:#b88722;\n  stroke-width:1.8;\n  fill:none;\n  stroke-linecap:round;\n  stroke-linejoin:round;\n  flex-shrink:0;\n}\n\n.elixara-trust-grid{\n  display:grid;\n  grid-template-columns:1fr 1fr;\n  gap:24px 22px;\n}\n\n.trust-item{\n  display:flex;\n  align-items:flex-start;\n  gap:12px;\n  color:#8d7f72;\n  font-size:15px;\n  line-height:1.45;\n}\n\n.trust-item strong{\n  color:#2d1d16;\n  font-size:17px;\n  font-weight:850;\n}\n\n@media(max-width:768px){\n  .elixara-payment-wrapper{\n    padding:14px 14px 22px;\n    border-radius:18px;\n    margin:4px 0 22px;\n  }\n\n  .elixara-payment-title{\n    font-size:12px;\n    margin-bottom:14px;\n  }\n\n  .elixara-payment-logos{\n    gap:8px;\n    margin-bottom:14px;\n  }\n\n  .elixara-payment-logos img{\n    height:42px;\n  }\n\n  .elixara-secure-line{\n    font-size:13px;\n    margin-bottom:22px;\n  }\n\n  .elixara-trust-grid{\n    gap:20px 14px;\n  }\n\n  .trust-item{\n    gap:9px;\n    font-size:12.5px;\n  }\n\n  .trust-item strong{\n    font-size:14.5px;\n  }\n\n  .elixara-secure-line svg,\n  .trust-item svg{\n    width:19px;\n    height:19px;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -315,6 +328,7 @@
     "custom_liquid_a4hTpC",
     "featured-product",
     "custom_liquid_WKUfRL",
-    "custom_liquid_r98LtB"
+    "custom_liquid_r98LtB",
+    "custom_liquid_BncL6K"
   ]
 }

@@ -16,6 +16,7 @@
       "blocks": {
         "message_fFEFL3": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Today’s Special Offer",
             "url": ""
@@ -23,6 +24,7 @@
         },
         "message_RkWBe8": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Visible Results In Just A Few Weeks",
             "url": ""
@@ -30,6 +32,7 @@
         },
         "message": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Free Shipping Today",
             "url": ""
@@ -51,6 +54,19 @@
         "background": "#468846",
         "background_gradient": "",
         "text_color": "#ffffff"
+      }
+    },
+    "custom_liquid_6pG7b6": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"elixara-announcement-bar\">\n\n  <div class=\"elixara-announcement-track\">\n\n    <!-- FIRST -->\n\n    <div class=\"announcement-item\">\n      🚚 Free Shipping Today\n    </div>\n\n    <div class=\"announcement-item\">\n      🔒 Secure SSL Checkout\n    </div>\n\n    <div class=\"announcement-item\">\n      ⭐ 4.8/5 Rated by 1,281+ Customers\n    </div>\n\n    <!-- SECOND -->\n\n    <div class=\"announcement-item\">\n      🚚 Free Shipping Today\n    </div>\n\n    <div class=\"announcement-item\">\n      🔒 Secure SSL Checkout\n    </div>\n\n    <div class=\"announcement-item\">\n      ⭐ 4.8/5 Rated by 1,281+ Customers\n    </div>\n\n    <!-- THIRD -->\n\n    <div class=\"announcement-item\">\n      🚚 Free Shipping Today\n    </div>\n\n    <div class=\"announcement-item\">\n      🔒 Secure SSL Checkout\n    </div>\n\n    <div class=\"announcement-item\">\n      ⭐ 4.8/5 Rated by 1,281+ Customers\n    </div>\n\n  </div>\n\n</section>\n\n<style>\n\n.elixara-announcement-bar{\n  width:100vw;\n\n  margin-left:calc(50% - 50vw);\n  margin-right:calc(50% - 50vw);\n\n  background:#063b2a;\n\n  overflow:hidden;\n\n  padding:11px 0;\n\n  position:relative;\n\n  z-index:999;\n}\n\n/* TRACK */\n\n.elixara-announcement-track{\n  display:flex;\n\n  align-items:center;\n\n  gap:70px;\n\n  width:max-content;\n\n  animation:elixaraInfiniteScroll 18s linear infinite;\n}\n\n/* ITEM */\n\n.announcement-item{\n  color:#ffffff;\n\n  font-size:14px;\n\n  font-weight:800;\n\n  letter-spacing:.3px;\n\n  white-space:nowrap;\n\n  flex-shrink:0;\n}\n\n/* SCROLL */\n\n@keyframes elixaraInfiniteScroll{\n\n  0%{\n    transform:translateX(0);\n  }\n\n  100%{\n    transform:translateX(-33.333%);\n  }\n\n}\n\n/* MOBILE */\n\n@media(max-width:768px){\n\n  .elixara-announcement-bar{\n    padding:9px 0;\n  }\n\n  .elixara-announcement-track{\n    gap:42px;\n    animation-duration:14s;\n  }\n\n  .announcement-item{\n    font-size:12px;\n  }\n\n}\n\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "header": {
@@ -81,6 +97,7 @@
   },
   "order": [
     "announcement-bar",
+    "custom_liquid_6pG7b6",
     "header"
   ]
 }

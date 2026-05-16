@@ -363,9 +363,23 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_RaDhHL": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"elixara-announcement-bar\">\n\n  <div class=\"elixara-announcement-track\">\n\n    <!-- SET 1 -->\n\n    <div class=\"announcement-item\">\n      🚚 Free Shipping Today\n    </div>\n\n    <div class=\"announcement-item\">\n      🔒 Secure SSL Checkout\n    </div>\n\n    <div class=\"announcement-item\">\n      ⭐ 4.8/5 Rated by 1,281+ Customers\n    </div>\n\n    <!-- SET 2 -->\n\n    <div class=\"announcement-item\">\n      🚚 Free Shipping Today\n    </div>\n\n    <div class=\"announcement-item\">\n      🔒 Secure SSL Checkout\n    </div>\n\n    <div class=\"announcement-item\">\n      ⭐ 4.8/5 Rated by 1,281+ Customers\n    </div>\n\n    <!-- SET 3 -->\n\n    <div class=\"announcement-item\">\n      🚚 Free Shipping Today\n    </div>\n\n    <div class=\"announcement-item\">\n      🔒 Secure SSL Checkout\n    </div>\n\n    <div class=\"announcement-item\">\n      ⭐ 4.8/5 Rated by 1,281+ Customers\n    </div>\n\n  </div>\n\n</section>\n\n<style>\n\n/* BAR */\n\n.elixara-announcement-bar{\n  width:100vw;\n\n  margin-left:calc(50% - 50vw);\n  margin-right:calc(50% - 50vw);\n\n  background:#063b2a;\n\n  overflow:hidden;\n\n  padding:14px 0;\n\n  position:relative;\n\n  z-index:999;\n\n  margin-bottom:0 !important;\n}\n\n/* TRACK */\n\n.elixara-announcement-track{\n  display:flex;\n\n  align-items:center;\n\n  gap:70px;\n\n  width:max-content;\n\n  animation:elixaraInfiniteScroll 18s linear infinite;\n}\n\n/* ITEM */\n\n.announcement-item{\n  color:#ffffff;\n\n  font-size:15px;\n\n  font-weight:900;\n\n  letter-spacing:.2px;\n\n  white-space:nowrap;\n\n  flex-shrink:0;\n\n  line-height:1;\n}\n\n/* SCROLL */\n\n@keyframes elixaraInfiniteScroll{\n\n  0%{\n    transform:translateX(0);\n  }\n\n  100%{\n    transform:translateX(-33.333%);\n  }\n\n}\n\n/* RETIRE ESPACE HEADER SHOPIFY */\n\n#shopify-section-header,\n.header-wrapper,\n.shopify-section-header-sticky{\n  margin-top:0 !important;\n  padding-top:0 !important;\n}\n\n/* HEADER PLUS COLLÉ */\n\n.header{\n  padding-top:4px !important;\n  padding-bottom:4px !important;\n  margin-top:0 !important;\n}\n\n/* MOBILE */\n\n@media(max-width:768px){\n\n  .elixara-announcement-bar{\n    padding:13px 0;\n  }\n\n  .elixara-announcement-track{\n    gap:42px;\n    animation-duration:14s;\n  }\n\n  .announcement-item{\n    font-size:14px;\n  }\n\n  .header{\n    padding-top:0 !important;\n    padding-bottom:0 !important;\n  }\n\n}\n\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
+    "custom_liquid_RaDhHL",
     "custom_liquid_3TrT46",
     "image_with_text_overlay_jHtBm3",
     "before_after_image_mUnjVp",
